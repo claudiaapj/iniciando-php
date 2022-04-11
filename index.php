@@ -1,7 +1,7 @@
 <?php
     include './lib/listar.php';
     $alunos= listaAlunos();
-    $aluno = $alunos[1];
+    $aluno = $alunos[1][nome];
 ?>
 
 <!DOCTYPE html>

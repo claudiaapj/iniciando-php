@@ -27,7 +27,7 @@
     $pessoa = array('nome' => 'Sávio', 'idade' => 18, 'sexo' => 'm' );
     array_push($alunos, $pessoa);
 
-    var_dump($alunos);
+    //print_r($alunos);
 
 
 
@@ -58,6 +58,6 @@ function listar_alunos(){
 
     mysqli_close($link);
 }
-var_dump(listar_alunos())
+
 
 ?>

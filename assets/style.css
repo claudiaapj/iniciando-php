@@ -1,0 +1,8 @@
+footer,header{
+    width: 100%;
+    height: 100px;
+    background-color: #999898;
+    display: inline-block;
+    font-weight: bold;
+    
+}
