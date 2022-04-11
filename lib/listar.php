@@ -4,18 +4,30 @@
 //pesquisar como se cria objetos no php usando array
 //fazer vetor alunos como um objeto, no qual vamos colocar nome, idade, sexo nesse objeto
 // e criar um vetor de objeto aluno;
-    class pessoas
-    {
-        public $nome;
-        public $idade;
-        public $sexo;
-    }
-    $alunos = array();
 
-    $alunos[0] = new pessoas();
-    $alunos[0]-> nome = 'Cláudia';
-    $alunos[0]-> idade= '37';
-    $alunos[0] -> sexo = 'f';
+    $alunos = [];
+    $pessoa = array('nome' => 'Bianca', 'idade' => 18, 'sexo' => 'f' );
+    array_push($alunos, $pessoa);
+
+    $pessoa = array('nome' => 'Cláudia', 'idade' => 37, 'sexo' => 'f' );
+    array_push($alunos, $pessoa);
+
+    $pessoa = array('nome' => 'Luiza', 'idade' => 19, 'sexo' => 'f' );
+    array_push($alunos, $pessoa);
+
+    $pessoa = array('nome' => 'Marcos', 'idade' => 18, 'sexo' => 'm' );
+    array_push($alunos, $pessoa);
+
+    $pessoa = array('nome' => 'Michele', 'idade' => 19, 'sexo' => 'f' );
+    array_push($alunos, $pessoa);
+
+    $pessoa = array('nome' => 'Pedro', 'idade' => 20, 'sexo' => 'm' );
+    array_push($alunos, $pessoa);
+
+    $pessoa = array('nome' => 'Sávio', 'idade' => 18, 'sexo' => 'm' );
+    array_push($alunos, $pessoa);
+
+    var_dump($alunos);
 
 
 
