@@ -19,7 +19,7 @@
     <main>
         <?php
         for($i=0; $i< count($alunos); $i++){
-            echo '<li>. $alunos[i]. </li>';
+            echo '<li>'. $alunos[$i]. '</li>';
         }
        ?>
     </main>  
