@@ -1,9 +1,4 @@
 <?php
-//$alunos=['Bianca', 'Cláudia', 'Luiza', 'Marcos', 'Michele', 'Pedro', 'Sávio'];
-
-//pesquisar como se cria objetos no php usando array
-//fazer vetor alunos como um objeto, no qual vamos colocar nome, idade, sexo nesse objeto
-// e criar um vetor de objeto aluno;
 
     $alunos = [];
     $pessoa = array('nome' => 'Bianca', 'idade' => 18, 'sexo' => 'f' );
