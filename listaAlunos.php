@@ -10,18 +10,23 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./assets/reset.css">
-    <link rel="stylesheet" href="./assets/style.css">
-    <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Cadastro Alunos</title>
 </head>
 <body>
     <header>
     <h1>Lista de Alunos</h1>
+    <div class="image">
+        <img src="./assets/img/logo.png" alt="">
+        
+    </div>
     <div class="nav">
         <a href="/index.php">HOME</a>
         <a href="/listaAlunos.php">ALUNOS</a>
+        <a href="/cadastro.php">CADASTRO</a>
     </div>
     </header>
-    <main>
+    <main class="list">
         
         <?php
         echo '<table>';
@@ -38,7 +43,7 @@
             $sexo = '';
 
             if($sSexo == 'f'){
-                $sexo = 'feminino';
+                $sexo = 'Feminino';
             } else if ($sSexo == 'm'){
                 $sexo = 'Masculino';  
             }
