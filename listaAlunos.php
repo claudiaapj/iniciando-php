@@ -2,11 +2,18 @@
    include './lib/bancoDados.php';
     $alunos = listaAlunos();
 
+    $nome= htmlspecialchars($_POST['nome']) ;
+    $idade= (int) $_POST['idade'];
+    $sexo= $_POST['sexo'];
+
+  
+    $pessoa = array('nome' => ($_POST['nome']), 'idade' => ($_POST['idade']), 'sexo' => ($_POST['sexo']));
+    array_push($alunos, $pessoa);
 
 
 ?>
 
-<!DOCTYPE html>
+<!DOCTYPE html>''
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
@@ -54,11 +61,7 @@
             echo '</tr>';
             
         } 
-        echo'<tr>';
-        echo '<td>' . $_POST['nome'] .  '</td>';
-        echo '<td>' . $_POST['idade'] .  '</td>';
-        echo '<td>' . $_POST['sexo'] .  '</td>';
-        echo'</tr>';
+       
         echo '</table>';
 
 
