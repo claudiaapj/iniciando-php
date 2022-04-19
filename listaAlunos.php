@@ -1,6 +1,9 @@
 <?php
    include './lib/bancoDados.php';
     $alunos = listaAlunos();
+
+
+
 ?>
 
 <!DOCTYPE html>
@@ -51,6 +54,11 @@
             echo '</tr>';
             
         } 
+        echo'<tr>';
+        echo '<td>' . $_POST['nome'] .  '</td>';
+        echo '<td>' . $_POST['idade'] .  '</td>';
+        echo '<td>' . $_POST['sexo'] .  '</td>';
+        echo'</tr>';
         echo '</table>';
 
 

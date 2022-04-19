@@ -103,6 +103,7 @@ table{
  }
   
 
+
   footer{
       width: 100%;
       color: #fff;
@@ -115,6 +116,8 @@ table{
   .cadastro li{
       margin: 20px;
       font-size: 20px;
+      list-style-type: none;
+     
      
   }
 
@@ -144,3 +147,5 @@ table{
       color: #fff;
       padding: 5px;
   }
+
+ 
