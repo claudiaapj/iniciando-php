@@ -10,16 +10,24 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./assets/reset.css">
-    <link rel="stylesheet" href="./assets/style.css">
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
     <title>Document</title>
 </head>
 <body>
     <header>
-        <a href="/">HOME</a>
+        <h1>ESCOLA WEB</h1>
+    <div class="image">
+        <img src="./assets/img/logo.png" alt="">
+        
+    </div>
+    <div class="nav">
+        <a href="/index.php">HOME</a>
         <a href="/listaAlunos.php">ALUNOS</a>
+        <a href="/cadastro.php">CADASTRO</a>
+    </div>
     </header>
-    <main>
+    <main class="inicio">
         Olá
         <ul>
             <?php
@@ -28,5 +36,8 @@
 
         </ul>
     </main>  
+    <footer>
+
+    </footer>   
 </body>
 </html>

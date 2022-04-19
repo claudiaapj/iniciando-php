@@ -36,9 +36,9 @@
             <li>
                 <label for="">Sexo: </label>
                 <select id="box-sexo" name="sexo">
-                    <option value="Selecione    ">Selecione</option>
-                    <option value="Masculino">Masculino</option>
-                    <option  value="Feminino">Feminino</option>
+                    <option value="Selecione">Selecione</option>
+                    <option value="m">Masculino</option>
+                    <option  value="f">Feminino</option>
                 </select>
             </li>
             <li><input id= "envio" type="submit" name = "envio" /></li>

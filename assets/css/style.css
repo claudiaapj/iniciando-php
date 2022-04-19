@@ -7,8 +7,13 @@ header{
     color: #fff;
     justify-content:center;
     align-items: center;
-    
-    
+
+}
+
+.inicio{
+    background-image: url(../img/books-coracao.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
 }
 
 
@@ -57,10 +62,7 @@ h1{
     color: #fff;
     text-decoration: none;
     margin-left: 25px;
-    
-    
 
-    
 }
 
 table{
