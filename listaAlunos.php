@@ -3,15 +3,13 @@
     $alunos = listaAlunos();
 
     if(isset($_POST['nome']) && isset($_POST['idade'])&& isset($_POST['sexo'])){
-    $nome= htmlspecialchars($_POST['nome']) ;
-    $idade= (int) $_POST['idade'];
-    $sexo= htmlspecialchars($_POST['sexo']);
+        $nome= htmlspecialchars($_POST['nome']) ;
+        $idade= (int) $_POST['idade'];
+        $sexo= htmlspecialchars($_POST['sexo']);
+
+        $pessoa = array('nome' => ($nome), 'idade' => ($idade), 'sexo' => ($sexo));
+        array_push($alunos, $pessoa);
     }
-
-  
-    $pessoa = array('nome' => ($nome), 'idade' => ($idade), 'sexo' => ($sexo));
-    array_push($alunos, $pessoa);
-
 
 ?>
 

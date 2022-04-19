@@ -10,10 +10,8 @@ header{
 
 }
 
-.inicio{
-    background-image: url(../img/books-coracao.jpg);
-    background-repeat: no-repeat;
-    width: 100%;
+.inicio {
+    background-image: url(/assets/img/books-coracao.jpg);
 }
 
 
