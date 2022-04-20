@@ -10,7 +10,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./assets/reset.css">
-    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/styles.css">
     <script src="./assets/script.js" defer></script>
     <title>Cadastro Alunos</title>
 </head>
@@ -48,7 +48,10 @@
         </section>
     </main>  
     <footer>
-
-    </footer>
+        <p>
+            Atividade proposta no curso Programador Web
+        </p>
+        <p>Cláudia Aguilar</p>
+    </footer> 
 </body>
 </html>

@@ -11,10 +11,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./assets/css/reset.css">
-    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/styles.css">
     <title>Escola Web</title>
 </head>
-<body>
+<body >
     <header>
         <h1>ESCOLA WEB</h1>
     <div class="image">
@@ -28,16 +28,20 @@
     </div>
     </header>
     <main class="inicio">
-        Olá
-        <ul>
+        <section class="abert">
+            <h2>Olá</h2>
+        
             <?php
-                echo '<li>'. $aluno.'</li>'
+            echo '<h2>'. $aluno.'</h2>'
             ?>
-
-        </ul>
+        </section>
+        
     </main>  
     <footer>
-
+        <p>
+            Atividade proposta no curso Programador Web
+        </p>
+        <p>Cláudia Aguilar</p>
     </footer>   
 </body>
 </html>
